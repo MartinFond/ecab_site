@@ -1,7 +1,7 @@
 ## À propos du club
 
 Fondé en 1985, l'Escrime Club d'Andrézieux-Bouthéon est un acteur incontournable
-du sport local. Depuis plus de 35 ans, le club fait découvrir et pratiquer
+du sport local. Depuis plus de 40 ans, le club fait découvrir et pratiquer
 l'escrime à tous les publics, dans un esprit de convivialité, de progression et
 de passion.
 
