@@ -1,8 +1,8 @@
-## Escrime Entreprise
+## Escrime en entreprise
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+L'ECAB propose aux entreprises des séances d'escrime en **team building** : un
+moment original et fédérateur pour réunir les équipes autour d'un sport élégant
+et accessible à tous.
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
-quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+Encadrées par notre professeur diplômé d'État, ces animations s'adaptent à tous,
+sans expérience préalable.

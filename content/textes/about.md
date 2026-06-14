@@ -1,14 +1,20 @@
-## À propos
+## À propos du club
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Fondé en 1985, l'Escrime Club d'Andrézieux-Bouthéon est un acteur incontournable
+du sport local. Depuis plus de 35 ans, le club fait découvrir et pratiquer
+l'escrime à tous les publics, dans un esprit de convivialité, de progression et
+de passion.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-culpa qui officia deserunt mollit anim id est laborum.
+Encadrés par un **professeur diplômé d'État**, nos cours s'adressent aux enfants,
+adolescents et adultes, du loisir à la compétition.
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
-ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+### Nos disciplines
+
+- **Fleuret**
+- **Épée**
+
+L'enseignement est adapté à chaque âge et à chaque niveau, pour permettre à
+chacun d'évoluer à son rythme et de prendre plaisir à tirer.
+
+Que vous souhaitiez pratiquer en loisir, progresser en compétition ou simplement
+découvrir un sport élégant et exigeant, **l'ECAB vous accueille avec plaisir**.

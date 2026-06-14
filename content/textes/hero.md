@@ -1,9 +1,8 @@
-# Lorem ipsum dolor sit amet
+# Bienvenue à l'Escrime Club d'Andrézieux-Bouthéon
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Depuis 1985, l'ECAB fait découvrir et pratiquer l'escrime à tous les publics —
+enfants, adolescents et adultes, du loisir à la compétition — dans un esprit de
+convivialité, de progression et de passion.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-culpa qui officia deserunt mollit anim id est laborum.
+**Venez essayer !** Le club vous accueille toute l'année pour un **cours d'essai
+gratuit**, 23 rue de la Fabrique à Andrézieux-Bouthéon.
