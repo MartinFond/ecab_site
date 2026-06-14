@@ -27,13 +27,19 @@ export const bannerUrl = firstUrl(
   }),
 )
 
-// Photos and videos that can be referenced from the markdown texts.
+// Photos, videos and downloadable documents referenced from the markdown texts.
 const mediaModules = {
   ...import.meta.glob(
     '/content/photos/*.{jpg,jpeg,png,webp,gif,avif,svg,JPG,JPEG,PNG,WEBP,GIF,AVIF,SVG}',
     { eager: true, query: '?url', import: 'default' },
   ),
   ...import.meta.glob('/content/videos/*.{mp4,webm,ogg,mov,MP4,WEBM,OGG,MOV}', {
+    eager: true,
+    query: '?url',
+    import: 'default',
+  }),
+  // Documents to download (flyers, etc.) — content/documents/*
+  ...import.meta.glob('/content/documents/*.{pdf,doc,docx,odt,ppt,pptx,PDF,DOC,DOCX,ODT,PPT,PPTX}', {
     eager: true,
     query: '?url',
     import: 'default',

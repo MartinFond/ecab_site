@@ -19,6 +19,7 @@ Keep these two worlds strictly separated.
   - `content/photos/` — photos shown inside sections
   - `content/diaporama/` — photos for the full-width sliding gallery
   - `content/videos/` — videos
+  - `content/documents/` — downloadable files (PDF flyers, etc.)
   - `content/logo.png` — club logo (also the favicon)
   - `content/banniere.png` — header background banner
   - `content/README.md` — the editing guide (for the non-dev)
@@ -40,8 +41,9 @@ build time (see `src/content-assets.js`).
 
 - `src/content-assets.js` — resolves the files in `content/` to their built
   URLs. Exports `logoUrl`, `bannerUrl`, and `mediaUrl(filename)` (looks up a
-  photo/video by filename in `content/photos` + `content/videos`; external URLs
-  pass through). This is the bridge that lets all media live in `content/`.
+  photo/video/document by filename in `content/photos` + `content/videos` +
+  `content/documents`; external URLs pass through). This is the bridge that lets
+  all media live in `content/`.
 - `src/content.js` — auto-loads every `content/textes/*.md` file at build time
   (`?raw`), keyed by filename (`about.md` → `"about"`). `getContent(name)`.
 - `src/App.jsx` — renders `<Header />`, `<Nav />`, the page sections (an explicit
@@ -81,7 +83,11 @@ build time (see `src/content-assets.js`).
   is intentionally NOT in `App.jsx`'s section list — it lives only in the footer.
 - `src/components/Markdown.jsx` — renders markdown via `react-markdown`
   (+ `remark-gfm` for tables/lists, + `rehype-raw` so `<video>`/`<img>` HTML
-  works). Image/video `src` values are resolved by filename via `mediaUrl`.
+  works). Image/video `src` values are resolved by filename via `mediaUrl`; `<a>`
+  `href` values are too, so a markdown link to a file in `content/documents`
+  (e.g. `[Flyer](flyer.pdf)`) resolves to the built URL, and local document
+  links get a `download` attribute. Use `class="download-button"` for a styled
+  button (see `styles.css`).
 - `src/styles.css` — all styling. Plain CSS. The real design goes here.
 
 ## Color palette (single source of truth)

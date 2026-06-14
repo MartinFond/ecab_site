@@ -14,7 +14,8 @@ content/
 ├── textes/            ← les textes (un fichier .md par section)
 ├── photos/            ← les photos affichées dans les sections
 ├── diaporama/         ← les photos du diaporama qui défile
-└── videos/            ← les vidéos (si besoin)
+├── videos/            ← les vidéos (si besoin)
+└── documents/         ← les fichiers à télécharger (flyers PDF, etc.)
 ```
 
 ## 1. Modifier les textes — `textes/`
@@ -99,6 +100,21 @@ reste intact).
 > Le dossier `videos/` reste disponible pour de petits fichiers vidéo à insérer
 > dans un texte avec `<video controls src="ma-video.mp4"></video>`, mais
 > préférez YouTube/Vimeo pour une vidéo de présentation.
+
+## 6. Un fichier à télécharger (flyer PDF…) — `documents/`
+
+1. Déposez le fichier (par ex. un PDF) dans **`content/documents/`**.
+2. Dans le texte, créez un **bouton de téléchargement** en écrivant (il suffit
+   du **nom du fichier**) :
+
+   ```html
+   <p>
+     <a class="download-button" href="mon-flyer.pdf">Télécharger le flyer (PDF)</a>
+   </p>
+   ```
+
+   Le visiteur télécharge le fichier en cliquant. Pour remplacer le document,
+   déposez un nouveau fichier portant le **même nom**.
 
 ## Bon à savoir
 

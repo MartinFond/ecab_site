@@ -18,6 +18,19 @@ const components = {
     <video src={mediaUrl(src)} controls={controls ?? true} {...props} />
   ),
   source: ({ node, src, ...props }) => <source src={mediaUrl(src)} {...props} />,
+  // Links to a file living in content/ (e.g. a PDF flyer in content/documents)
+  // are resolved to the built URL by filename, just like images. When the link
+  // points to a local document, add a `download` hint with a friendly filename
+  // so it saves nicely. External links and #anchors pass through untouched.
+  a: ({ node, href, ...props }) => {
+    const resolved = mediaUrl(href)
+    const isLocalDoc =
+      resolved !== href && /\.(pdf|docx?|odt|pptx?)$/i.test(href || '')
+    if (isLocalDoc && props.download === undefined) {
+      props.download = href.split('/').pop()
+    }
+    return <a href={resolved} {...props} />
+  },
 }
 
 // Renders trusted markdown content authored by the club.

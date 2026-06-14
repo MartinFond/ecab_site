@@ -8,3 +8,10 @@ faire découvrir l'escrime au plus grand nombre :
 
 Ces activités permettent d'initier les enfants et les jeunes à l'escrime dans un
 cadre ludique et encadré, et de renforcer le lien avec la vie locale.
+
+Vous représentez une école ou une structure ? Téléchargez notre flyer de
+présentation :
+
+<p>
+  <a class="download-button" href="escrime-scolaire-ecab.pdf">Télécharger le flyer (PDF)</a>
+</p>

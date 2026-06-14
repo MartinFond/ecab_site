@@ -201,6 +201,30 @@ body {
   margin: 0;
 }
 
+/* --- Bouton de téléchargement (ex. flyer PDF) --- */
+.section-inner .download-button {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.7rem 1.4rem;
+  background: var(--color-primary);
+  color: var(--color-white);
+  font-weight: 700;
+  text-decoration: none;
+  border: 2px solid var(--color-primary);
+  border-radius: 8px;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.section-inner .download-button::before {
+  content: '⬇ ';
+}
+
+.section-inner .download-button:hover,
+.section-inner .download-button:focus-visible {
+  background: var(--color-white);
+  color: var(--color-primary);
+}
+
 /* --- Vidéo de présentation (intégrée depuis YouTube/Vimeo) ---
    Cadre responsive au format 16:9 : la vidéo garde ses proportions sur tous
    les écrans. Le lien se règle dans content/textes/video.md. */
